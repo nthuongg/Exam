@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+a{
+  text-decoration: none;
+
+}
+span{
+  font-weight: 900;
+  font-size: 18px;
+}
+ul li{
+  font-weight: 600;
+  font-size: 16px;
+
+  list-style: none;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+  width: 220px;
+  margin-left: 0;
+  background-color: rgb(241, 241, 241);
+}
+.icon p a{
+  color: #000;
+}
+.menu .main a{
+  color: #000;
+}
+.menu .main li{
+  line-height: 49.2px;
+  list-style: none;
+  padding: 1px  45px;
+}
+.menu .main li:hover{
+  background: rgb(0, 132, 255);
+  width: 220px;
+  color: #fff;
+}
+.main .active {
+  background: rgb(0, 132, 255);
+  color: #fff;
+}
+.content{
+  border: 0.1px solid #949494;
+  height: 81px;
+}
+.main-items{
+  margin: 5px 0;
+}
+.icon-items i{
+  width: 50px;
+  padding: 10px 10px;
+  font-size: 30px;
+  background-color: rgb(190, 190, 190);
+  color: #3d3c3c;
+  border-radius: 50%;
+  margin: 0 15px;
+  float: left;
+  height: 50px;
+}
+.item p{
+  float: left;
+  margin: 0 30px;
+}
+.txt{
+  color: #949494;
+}
+.all{
+  margin: -406px 220px;
+}
+
